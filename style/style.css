@@ -113,15 +113,15 @@ main {
     border-radius: 10px;
     background-color: #FFF8F3;
     text-align: center;
-    padding: 30px;
-    margin: 130px;
+    padding: 130px;
+    margin: 120px 0px;
 }
 
 main .about h4 {
-    font-size: 48px;
+    font-size: 35px;
 }
 
-main .about {
+main .about p {
     font-size: 18px;
 }
 
@@ -137,4 +137,33 @@ main .infos {
 .info-description {
     font-size: 20px;
     font-weight: 600;
+}
+
+.skill-section h4 {
+    font-size: 35px;
+    text-align: center;
+}
+
+.skill-section .description {
+    font-size: 18px;
+    text-align: center;
+}
+
+.skills img {
+    height: 40px;
+    width: 40px;
+}
+
+.skills {
+    display: flex;
+    gap: 25px;
+
+
+}
+
+.skills div {
+    padding: 30px;
+    box-shadow: 2px 2px 50px rgb(212, 212, 212);
+    border-radius: 10px;
+    margin: 100px 0;
 }
